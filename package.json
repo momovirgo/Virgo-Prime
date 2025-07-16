@@ -1,0 +1,19 @@
+{
+  "name": "virgo-prime",
+  "version": "1.0.0",
+  "description": "Virgo Prime Discord Bot v2 de Clubes Pro FC25",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "openai": "^4.0.0",
+    "axios": "^1.0.0",
+    "form-data": "^4.0.0",
+    "express": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+}

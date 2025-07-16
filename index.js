@@ -20,7 +20,9 @@ const client = new Client({
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Configuración de OpenAI
-const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY });
+// Después
+const OpenAI = require('openai');
+const { Configuration, OpenAIApi } = OpenAI;
 const openai = new OpenAIApi(configuration);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o';
 
